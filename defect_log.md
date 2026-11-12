@@ -1,5 +1,7 @@
 # Defect Log — Demo Web Shop
 
+**Execution cycle 2026-11-12: 15 of 15 test cases passed — no defects were found, so this log has no live entries. The two rows below are format examples only.**
+
 One row per defect. Severity = how badly it breaks the product. Priority = how soon it should be fixed. Status flow: New → Assigned → Fixed → Retest → Closed (or Reopened).
 
 | ID | Title | Steps to reproduce | Expected | Actual | Severity | Priority | Status |
