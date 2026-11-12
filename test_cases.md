@@ -24,18 +24,18 @@ Execute each case exactly as written. Record the actual result and Pass/Fail in 
 
 | ID | Result (Pass/Fail) | Actual result / defect ID if failed | Date |
 |----|--------------------|-------------------------------------|------|
-| TC-01 | | | |
-| TC-02 | | | |
-| TC-03 | | | |
-| TC-04 | | | |
-| TC-05 | | | |
-| TC-06 | | | |
-| TC-07 | | | |
-| TC-08 | | | |
-| TC-09 | | | |
-| TC-10 | | | |
-| TC-11 | | | |
-| TC-12 | | | |
-| TC-13 | | | |
-| TC-14 | | | |
-| TC-15 | | | |
+| TC-01 | Pass | Logged in as standard_user; inventory page showed all 6 products | 2026-11-12 |
+| TC-02 | Pass | Error shown: "Username and password do not match any user in this service"; stayed on login page | 2026-11-12 |
+| TC-03 | Pass | Error shown: "Username is required" | 2026-11-12 |
+| TC-04 | Pass | Error shown: "Password is required" | 2026-11-12 |
+| TC-05 | Pass | Error shown: "Sorry, this user has been locked out." | 2026-11-12 |
+| TC-06 | Pass | Z to A order fully reversed; first item "Test.allTheThings() T-Shirt (Red)" | 2026-11-12 |
+| TC-07 | Pass | Prices ascending $7.99 → $49.99; first item Onesie at $7.99 | 2026-11-12 |
+| TC-08 | Pass | Button changed to "Remove"; cart badge showed 1 | 2026-11-12 |
+| TC-09 | Pass | After removal the cart showed 1 item (Bike Light, $9.99); badge showed 1 | 2026-11-12 |
+| TC-10 | Pass | Badge read 1, then 2, then 3 as the three items were added | 2026-11-12 |
+| TC-11 | Pass | Overview: item total $55.97, tax $4.48, total $60.45; confirmation heading "Thank you for your order!" | 2026-11-12 |
+| TC-12 | Pass | Error shown: "First Name is required"; checkout did not advance | 2026-11-12 |
+| TC-13 | Pass | Error shown: "Postal Code is required"; checkout did not advance | 2026-11-12 |
+| TC-14 | Pass | Cancel returned to the cart with the item unchanged | 2026-11-12 |
+| TC-15 | Pass | Logout returned to the login page; browser Back did not restore the session | 2026-11-12 |
